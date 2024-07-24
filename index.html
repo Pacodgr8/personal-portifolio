@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal-Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal portfolio website">
+    <meta charset="utf-8">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="nav">
+            <ul>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <h1>Hi! I'm Victor David,</h1>
+            <p> A passionate data scientist with a knack for transforming data into impactful insights and web development. With a background in HTML, CSS, JAVASCRIPT, PYTHON and SQL. I specialize in web development, data analysis, machine learning, and data visualization.</p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-tile">
+                <img src="https://via.placeholder.com/200" alt="project">
+                <h3><a href="#" target="_blank" rel="noreferrer">Product-Landing-Page</a></h3>
+                <p>A Skincare Product's Landing Page.</p>
+            </div>
+            <div class="project-tile">
+                <img src="https://via.placeholder.com/200" alt="project">
+                <h3><a href="#" target="_blank" rel="noreferrer">Personal-Portfolio</a></h3>
+                <p>A link to all my projects.</p>
+            </div>
+            <div class="project-tile">
+                <img src="https://via.placeholder.com/200" alt="project">
+                <h3><a href="#" target="_blank" rel="noreferrer">QuizQuest</a></h3>
+                <p>An Interactive quiz application.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name" >Name</label>
+                <input type="text" id="name" name="name" required placeholder="Insert Name" >
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Insert Email">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section>
+            <h2>Personal Profile</h2>
+            <a href="https://github.com/Pacodgr8" target="_blank" rel="noreferrer" id="profile-link" >
+                <i class="fab fa-github" style="font-size: 32px;"></i>
+            </a>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; 2024 David's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
